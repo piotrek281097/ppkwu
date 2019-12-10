@@ -1,4 +1,4 @@
-Autor: Piotr PleciÒski 209432
+Autor: Piotr Plecinski 209432
 
 Dokumentacja projektu String API
 
@@ -10,9 +10,9 @@ Parametry:text(string)
 
 Metoda zwraca wszystkie ma≥e litery z podanego paramteru
 
-Przyk≥ad
+Przyklad
 Zapytanie: http://localhost:8080/api/recognize/all-lower-case-letters/PoLsKa
-Odpowiedü:["o","s","a"]
+Odpowiedz:["o","s","a"]
 
 
 
@@ -23,9 +23,9 @@ Parametry:text(string)
 
 Metoda zwraca wszystkie duøe litery z paramteru
 
-Przyk≥ad
+Przyklad
 Zapytanie: http://localhost:8080/api/recognize/all-upper-case-letters/PiotrPlecinski
-Odpowiedü:["P","P"]
+Odpowiedz:["P","P"]
 
 
 
@@ -36,9 +36,9 @@ Parametry:text(string)
 
 Metoda zwraca wszystkie cyfry z paramteru
 
-Przyk≥ad
+Przyklad
 Zapytanie: http://localhost:8080/api/recognize/all-digits/11Ala22
-Odpowiedü:["1","1","2","2"]
+Odpowiedz:["1","1","2","2"]
 
 
 
@@ -49,9 +49,9 @@ Parametry:text(string)
 
 Metoda zwraca wszystkie znaki, ktÛre nie sπ ma≥ymi bπdü duzymi literami oraz liczbami z paramteru
 
-Przyk≥ad 
+Przyklad
 Zapytanie: http://localhost:8080/api/recognize/all-other-signs/ala!$+kot
-Odpowiedü:["!","$","+"]
+Odpowiedz:["!","$","+"]
 
 
 
@@ -62,8 +62,8 @@ Parametry:text(string)
 
 Metoda zwraca iloúÊ ma≥ych i duøych liter, cyfr i pozosta≥ych znakÛw z parametru
 
-Przyk≥ad 
+Przyklad
 Zapytanie: http://localhost:8080/api/recognize/amount-category-characters/QwertY$123!
-Odpowiedü:{"amount of others signs":2,"amount of upper case letters":2,"amount of lower case letters":4,"amount of digits":3}
+Odpowiedz:{"amount of others signs":2,"amount of upper case letters":2,"amount of lower case letters":4,"amount of digits":3}
 
 
